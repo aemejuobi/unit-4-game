@@ -7,7 +7,9 @@
     
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.map"></script>
+    <link href="https://fonts.googleapis.com/css?family=Acme|MedievalSharp" rel="stylesheet">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/js/game.js"></script>
 </head>
 <body>
@@ -22,18 +24,20 @@
         </div>
 
         <div id="winsAndLossesDiv">
-            <p>Wins: <span id="wins"></span></p>
-            <p>Losses: <span id="losses"></span></p>
+            <p class="text">Wins: <span id="wins"></span></p>
+            <p class="text">Losses: <span id="losses"></span></p>
         </div>
 
-        <div id="crystalBox1" class="crystalBox"></div>
-        <div id="crystalBox2" class="crystalBox"></div>
-        <div id="crystalBox3" class="crystalBox"></div>
-        <div id="crystalBox4" class="crystalBox"></div>
-
+    <div id="crystalBoxDiv" class="clearfix">
+        <div id="crystalBox1" class="crystalBox"><img src="https://images-na.ssl-images-amazon.com/images/I/51snWRfynML._US500_.jpg"></div>
+        <div id="crystalBox2" class="crystalBox"><img src="https://images-na.ssl-images-amazon.com/images/I/51V3msoq6XL._US500_.jpg"></div>
+        <div id="crystalBox3" class="crystalBox"><img src="https://images-na.ssl-images-amazon.com/images/I/51F5vVhF3cL.jpg"></div>
+        <div id="crystalBox4" class="crystalBox"><img src="https://images.catsolonline.com/cache/TK_656041-500x500.jpg"></div>
+    </div>
         
 
         <div id="scoreDiv">
+            <p id="winLossText"></p>
             <p id="totalScoreText">Your total score is:</p>
             <p id="totalScore"></p>
         </div>

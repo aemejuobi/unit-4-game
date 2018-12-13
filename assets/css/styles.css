@@ -1,0 +1,96 @@
+body{
+    background-image: url("https://media.giphy.com/media/l3q2RgN7WUjeUUXm0/giphy.gif");
+    /* https://media.giphy.com/media/xVn3ZmKrKIOLS/giphy.gif */
+    color: white;
+    background-color: black;
+    background-size: contain;
+    /* font-family: 'Acme', sans-serif; */
+    font-family: 'MedievalSharp', cursive;
+}
+
+#container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+    font-size: 4em;
+    margin-right: 0;
+}
+
+#randomNumberDiv{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#number{
+    font-size: 5em;
+}
+
+#winsAndLossesDiv{
+    margin: 0 auto;
+    width: 20%;
+    text-align: center;
+}
+
+.text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#crystalBoxDiv{
+    width: 80%;
+    margin: 0 auto;
+    margin-right: 50px;
+}
+
+.crystalBox{
+    /* height: 200px;
+    width: 20%;
+    float: left;
+    background-color: red;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-right: 10px; */
+}
+
+img{
+    height: 175px;
+    width: 20%;
+    float: left;
+    margin: 0 auto;
+    margin-right: 10px;
+}
+
+#winLossText{
+    text-align: center;
+    font-size: 1.5em
+}
+
+#totalScoreText{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+#totalScore{
+    text-align: center;
+    font-size: 3em;
+    margin-top: 10px;
+}
+
+#scoreDiv{
+    border: 1px solid black;
+    margin: 20px auto;
+}
